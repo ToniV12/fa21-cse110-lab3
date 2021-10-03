@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Lab2 Meeting Minutes Project</title>
+        <link rel="icon" type="image/x-icon" href="Munch.ico"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#attendance">Attendance List</a>
+                <a href="#lastmeeting">Last Meeting Summary</a>
+            </nav>
+        </header>
+        <section>
+        <h1>"Why Dogs Are Better Than Cats" Meeting</h1>
+        <h2>Check Ins</h2>
+        <p>10/2/21</p>
+        <h3 id="#attendance">Attendance List:</h3>
+        <ul>
+            <li>Dogs:</li>
+            <li>Shiba Inu</li>
+            <li>Chihuaha</li>
+            <li>Dachshund</li>
+            <li>America Bully</li>
+            <li>Cats:</li>
+            <li>Calico</li>
+            <li>Munchkin</li>
+            <li>Persian</li>
+        </ul>
+        </section>
+        <section>
+        <details>    
+            <summary>Agenda:</summary>
+            <ol>
+                <li><div><b>Toe Beans</b></div></li>
+                <li><span><strong>Softness</strong></span></li>
+                <li><i>Whiskers</i></li>
+                <li><em>Memeability</em></li>
+            </ol>
+        </details>
+        </section>
+        <section>
+            <h1 id="#lastmeeting"> Last Meeting Summary</h1>
+            <p>Last meeting we found why cats are <b>better</b> than dogs which was due to their 
+            <i>softness</i> and their toe beans.<br> Dogs however hold their own in other 
+            departments hence why we must have this meeting to appreciate dogs as well!</p>
+            <h2>Here are some images from last week's meeting:</h2>
+            <img src = "ToeBeans.jpg"
+                 alt = "Different toe beans for cats"
+                 srcset = "ToeBeans.jpg 1600w"
+                 sizes = "(max-width: 400px) 200px, 50vw">
+            <img src = "Sphynx.jfif"
+                 alt = "To show the 'Softness' of cats"
+                 srcset = "Sphynx.jfif 1000w"
+                 sizes = "(max-width: 400px) 200px, 50vw">
+        </section>
+        <section>
+            <h1>Here Is A Clip Of My Own Animals :)</h1>
+            <video controls width = "500" height = "400">
+                <source src = "zoom_0.mp4" type = "video/mp4">
+            </video>
+            
+            <figure>
+                <figcaption>If you prefer not seeing my face, you can 
+                    always listen to the audio here!</figcaption>
+                <audio controls>
+                    <source src = "audio_only.m4a">
+                </audio>
+            </figure>
+        </section>
+        <footer>
+            <form method="get" class ="form-example">
+                <div class = "form-example">
+                </div>
+                <fieldset>
+                    <legend>Do you like dogs?</legend>
+                    <label><input type = "radio" name = "radio"> Yes</label>
+                    <label><input type = "checkbox" name = "checkbox"> No</label>
+                    <label>Tell Me How You Really Feel:</label>
+                    <label><input type = "text" name = "text"></label>
+                    <label><input type = "date" name = "date"></label>
+                </fieldset>
+                <label for = "AttendanceList">Choose Your Favorite Animal From This List:</label>
+                <input list = "animals" id = "AttendanceList" name = "AttendanceList" />
+                <datalist id = "animals">
+                    <option value = "Shiba Inu"></option>
+                    <option value = "Chihuaha"></option>
+                    <option value = "Dachshund"></option>
+                    <option value = "American Bully"></option>
+                    <option value = "Calico"></option>
+                    <option value = "Munchkin"></option>
+                    <option value = "Persian"></option>
+                </datalist>
+                <br>
+                <label for = "NameSelect">Whos A Good Boy?</label>
+                    <select name = "Names" id = "NameSelect">
+                        <option value="">--Please Choose A Good Animal--</option>
+                        <option value = "Idk"> IDK</option>
+                        <option value = "DaDog"> What Da Dog Doin?</option>
+                        <option value = "Cats"> I Like Cats More</option>
+                    </select>
+                <br>
+                <label>Feel Free To Provide Feedback: </label>
+                <br>
+                <textarea></textarea>
+                <br>
+                <button>Subscribe For More Meetings:)</button>
+            </form>
+            Thanks For Visiting :)
+        </footer>
+    </body>
+</html>
