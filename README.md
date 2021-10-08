@@ -1,1 +1,0 @@
-https://toniv12.github.io/Lab2/
