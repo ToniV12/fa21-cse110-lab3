@@ -4,7 +4,7 @@
          url(Ephesis-Regular.ttf);
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px){ /*Change background color when window shrinks */
     body{
         background-color: orange;
     }
@@ -64,7 +64,7 @@ h1, h2, h3{ /*create the text decorations for these heading types*/
     display: block;
     font-family: "Birthstone-Regular", serif
 }
-#img1{
+#img1{ 
     height: 300px;
     width: 300px;
     position: absolute;
@@ -78,7 +78,7 @@ button:hover{
     width: 10vw;
     color: orchid;
 }
-#formarea{
+#formarea{ /*create a grid container for my form elements */
     display:grid;
     grid-template-columns: 50 px;
     grid-template-rows: 20px;
