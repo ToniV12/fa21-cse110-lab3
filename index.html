@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <title>Lab2 Meeting Minutes Project</title>
         <link rel="icon" type="image/x-icon" href="Munch.ico"/>
+        <link rel="stylesheet" href = "style.css"/>
+        <style>
+            body {background-color: powderblue;}
+        </style>
     </head>
     <body>
         <header>
@@ -13,13 +17,13 @@
             </nav>
         </header>
         <section>
-        <h1>"Why Dogs Are Better Than Cats" Meeting</h1>
-        <h2>Check Ins</h2>
-        <p>10/2/21</p>
+        <h1 id = "Meeting-title">"Why Dogs Are Better Than Cats" Meeting</h1>
+        <h2 style = "color:rgb(135,255,89)">Check Ins</h2>
+        <p style = "color: #F08">10/2/21</p>
         <h3 id="#attendance">Attendance List:</h3>
-        <ul>
-            <li>Dogs:</li>
-            <li>Shiba Inu</li>
+        <ul class = "Att-list">
+            <li style = "color:rgb(133, 12, 113)">Dogs:</li>
+            <li >Shiba Inu</li>
             <li>Chihuaha</li>
             <li>Dachshund</li>
             <li>America Bully</li>
@@ -32,7 +36,7 @@
         <section>
         <details>    
             <summary>Agenda:</summary>
-            <ol>
+            <ol class = "ems">
                 <li><div><b>Toe Beans</b></div></li>
                 <li><span><strong>Softness</strong></span></li>
                 <li><i>Whiskers</i></li>
@@ -46,11 +50,11 @@
             <i>softness</i> and their toe beans.<br> Dogs however hold their own in other 
             departments hence why we must have this meeting to appreciate dogs as well!</p>
             <h2>Here are some images from last week's meeting:</h2>
-            <img src = "ToeBeans.jpg"
+            <img id = img1 src = "ToeBeans.jpg"
                  alt = "Different toe beans for cats"
                  srcset = "ToeBeans.jpg 1600w"
                  sizes = "(max-width: 400px) 200px, 50vw">
-            <img src = "Sphynx.jfif"
+            <img id = img2 src = "Sphynx.jfif"
                  alt = "To show the 'Softness' of cats"
                  srcset = "Sphynx.jfif 1000w"
                  sizes = "(max-width: 400px) 200px, 50vw">
@@ -74,13 +78,14 @@
                 <div class = "form-example">
                 </div>
                 <fieldset>
-                    <legend>Do you like dogs?</legend>
+                    <legend style ="color: crimson;">Do you like dogs?</legend>
                     <label><input type = "radio" name = "radio"> Yes</label>
                     <label><input type = "checkbox" name = "checkbox"> No</label>
                     <label>Tell Me How You Really Feel:</label>
                     <label><input type = "text" name = "text"></label>
                     <label><input type = "date" name = "date"></label>
                 </fieldset>
+                <section id = "formarea">
                 <label for = "AttendanceList">Choose Your Favorite Animal From This List:</label>
                 <input list = "animals" id = "AttendanceList" name = "AttendanceList" />
                 <datalist id = "animals">
@@ -105,6 +110,7 @@
                 <br>
                 <textarea></textarea>
                 <br>
+                </section>
                 <button>Subscribe For More Meetings:)</button>
             </form>
             Thanks For Visiting :)
