@@ -1,0 +1,96 @@
+@font-face{ /*load the font into the webpage*/
+    font-family: "Ephesis";
+    src: local("Ephesis-Regular"),
+         url(Ephesis-Regular.ttf);
+
+}
+@media only screen and (max-width: 980px){
+    body{
+        background-color: orange;
+    }
+}
+legend[style]{
+    font-family: "Ephesis", serif;
+}
+ul *:last-child{
+    font-weight:bold;
+}
+ul > li{
+    border-bottom: 3px dotted orange;
+}
+h1 + video{
+    border: 20px solid greenyellow;
+}
+figcaption ~ audio{
+    position: relative;
+    top: 10px; left: 200px;
+}
+#Meeting-title{
+    color:red; /*make the title red*/
+    display: inline;
+    font-family: "Ephesis", serif ;
+}
+.nav:active{
+    color:red;
+}
+ul.Att-list{
+    margin-top: 1mm; /*configure margins on the list*/
+    margin-bottom: 2mm;
+    margin-left: 1mm;
+    margin-right: 1mm;
+    padding-top: 1px; /*configure padding */
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid; /*create border*/
+    border-color: powderblue;
+    border-width: 20px;
+    border-radius: 2cm;
+    display: flex; /*create a flex container*/
+    justify-content: flex-start;
+    align-content: space-around;
+    gap: 20px
+}
+fieldset{
+    margin: 1mm 2mm 1mm 1mm; /*configure margins on the form*/
+    padding: 1px 1px 40px 40px; /*configure padding */
+    border: 10px solid rgb(101, 179, 120); /*create border*/
+}
+h1, h2, h3{ /*create the text decorations for these heading types*/
+    margin: auto;
+    color: palevioletred;
+    text-decoration: orchid;
+    text-align: left;
+    display: block;
+    font-family: "Birthstone-Regular", serif
+}
+#img1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 450px;
+}
+#img2{
+    max-width: 400px;
+    min-width: 400px;
+}
+button:hover{
+    width: 10vw;
+    color: orchid;
+}
+#formarea{
+    display:grid;
+    grid-template-columns: 50 px;
+    grid-template-rows: 20px;
+    place-items: center;
+}
+.ems div{
+    font-size: 2em;
+}
+.ems i{
+    font-size: 3rem;
+}
+textarea{
+    position: relative;
+    left: 40px;
+}
